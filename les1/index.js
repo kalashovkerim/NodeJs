@@ -2,7 +2,6 @@ import { format, formatDistance, formatRelative, subDays } from 'date-fns'
 import _ from 'lodash'
 
 let res = format(new Date(), "'Today is a' eeee")
-//=> "Today is a Sunday"
 
 console.log(res);
 
